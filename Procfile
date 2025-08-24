@@ -1,1 +1,1 @@
-web: gunicorn gradecalcu:Flask(__name__)
+web: gunicorn gradecalcu:app=Flask(__name__)
