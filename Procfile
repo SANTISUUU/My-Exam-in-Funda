@@ -1,1 +1,1 @@
-web: gunicorn gradecalc:app
+web: gunicorn gradecalcu:app
