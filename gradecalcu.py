@@ -75,7 +75,7 @@ HTML_TEMPLATE = """
     </style>
 </head>
 <body>
-    <!-- ✅ Background video (replace the src with your own GitHub raw or static link) -->
+    
     <video autoplay muted loop id="bg-video">
         <source src="https://admin.lofistudio.com/uploads/Assassin_s_12469565e0.webm" type="video/webm">
         Your browser does not support HTML5 video.
@@ -199,4 +199,5 @@ def calculate():
     return render_template_string(HTML_TEMPLATE, result=result, error=error, request=request)
 
 if __name__ == "__main__":
+
     app.run(debug=True)  # ✅ Debug mode for testing
